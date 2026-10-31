@@ -1,0 +1,46 @@
+{
+  "ano": 2026,
+  "anos": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "observacao": "Valores ausentes não são tratados como zero. A média exibida é a média aritmética das médias mensais disponíveis, sem ponderação pela quantidade de dias.",
+  "estacoes": {
+    "CAMPINAS-CENTRO": {
+      "unidades": {
+        "co": "ppm",
+        "pm10": "µg/m3"
+      }
+    },
+    "CAMPINAS-TAQUARAL": {
+      "unidades": {
+        "pm10": "µg/m3",
+        "pm25": "µg/m3",
+        "no": "µg/m3",
+        "no2": "µg/m3",
+        "nox": "ppb",
+        "o3": "µg/m3",
+        "umidade_relativa": "%"
+      }
+    },
+    "CAMPINAS-V.UNIAO": {
+      "unidades": {
+        "pm25": "µg/m3",
+        "umidade_relativa": "%",
+        "o3": "µg/m3",
+        "no": "µg/m3",
+        "no2": "µg/m3",
+        "nox": "ppb"
+      }
+    }
+  }
+}

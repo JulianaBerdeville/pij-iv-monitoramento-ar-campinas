@@ -1,0 +1,167 @@
+{
+  "modelo": "Random Forest",
+  "alvo": "média mensal do poluente no mês seguinte",
+  "baseline": "último ano: valor observado no mesmo mês do ano anterior",
+  "metodo_validacao": "Validação temporal: últimos 24 meses disponíveis, treino apenas em meses anteriores e previsão de um mês à frente.",
+  "criterios": {
+    "observacoes_minimas": 72,
+    "amostras_treino_minimas": 36,
+    "amostras_teste_minimas": 12
+  },
+  "resultados": [
+    {
+      "estacao": "CAMPINAS-CENTRO",
+      "poluente": "co",
+      "unidade": "ppm",
+      "observacoes": 123,
+      "treino": 88,
+      "teste": 17,
+      "validacao": {
+        "inicio": "2024-11",
+        "fim": "2026-10",
+        "mae": 0.06,
+        "rmse": 0.09,
+        "baseline_mae": 0.1,
+        "supera_baseline": true
+      },
+      "previsao": {
+        "periodo": "2026-11",
+        "valor": 0.59,
+        "ultimo_periodo_observado": "2026-10",
+        "ultimo_valor_observado": 0.6
+      }
+    },
+    {
+      "estacao": "CAMPINAS-CENTRO",
+      "poluente": "pm10",
+      "unidade": "µg/m3",
+      "observacoes": 125,
+      "treino": 94,
+      "teste": 16,
+      "validacao": {
+        "inicio": "2024-11",
+        "fim": "2026-10",
+        "mae": 4.23,
+        "rmse": 5.98,
+        "baseline_mae": 4.88,
+        "supera_baseline": true
+      },
+      "previsao": {
+        "periodo": "2026-11",
+        "valor": 19.72,
+        "ultimo_periodo_observado": "2026-10",
+        "ultimo_valor_observado": 22.0
+      }
+    },
+    {
+      "estacao": "CAMPINAS-TAQUARAL",
+      "poluente": "pm10",
+      "unidade": "µg/m3",
+      "observacoes": 124,
+      "treino": 85,
+      "teste": 17,
+      "validacao": {
+        "inicio": "2024-11",
+        "fim": "2026-10",
+        "mae": 3.99,
+        "rmse": 5.89,
+        "baseline_mae": 6.18,
+        "supera_baseline": true
+      },
+      "previsao": {
+        "periodo": "2026-11",
+        "valor": 13.71,
+        "ultimo_periodo_observado": "2026-10",
+        "ultimo_valor_observado": 13.0
+      }
+    },
+    {
+      "estacao": "CAMPINAS-TAQUARAL",
+      "poluente": "o3",
+      "unidade": "µg/m3",
+      "observacoes": 125,
+      "treino": 82,
+      "teste": 24,
+      "validacao": {
+        "inicio": "2024-11",
+        "fim": "2026-10",
+        "mae": 5.94,
+        "rmse": 7.39,
+        "baseline_mae": 9.75,
+        "supera_baseline": true
+      },
+      "previsao": {
+        "periodo": "2026-11",
+        "valor": 53.96,
+        "ultimo_periodo_observado": "2026-10",
+        "ultimo_valor_observado": 46.0
+      }
+    },
+    {
+      "estacao": "CAMPINAS-V.UNIAO",
+      "poluente": "pm25",
+      "unidade": "µg/m3",
+      "observacoes": 125,
+      "treino": 82,
+      "teste": 24,
+      "validacao": {
+        "inicio": "2024-11",
+        "fim": "2026-10",
+        "mae": 3.0,
+        "rmse": 3.78,
+        "baseline_mae": 4.83,
+        "supera_baseline": true
+      },
+      "previsao": {
+        "periodo": "2026-11",
+        "valor": 9.68,
+        "ultimo_periodo_observado": "2026-10",
+        "ultimo_valor_observado": 9.0
+      }
+    },
+    {
+      "estacao": "CAMPINAS-V.UNIAO",
+      "poluente": "umidade_relativa",
+      "unidade": "%",
+      "observacoes": 127,
+      "treino": 88,
+      "teste": 22,
+      "validacao": {
+        "inicio": "2024-11",
+        "fim": "2026-10",
+        "mae": 4.61,
+        "rmse": 6.1,
+        "baseline_mae": 6.86,
+        "supera_baseline": true
+      },
+      "previsao": {
+        "periodo": "2026-11",
+        "valor": 67.64,
+        "ultimo_periodo_observado": "2026-10",
+        "ultimo_valor_observado": 73.0
+      }
+    },
+    {
+      "estacao": "CAMPINAS-V.UNIAO",
+      "poluente": "o3",
+      "unidade": "µg/m3",
+      "observacoes": 128,
+      "treino": 88,
+      "teste": 24,
+      "validacao": {
+        "inicio": "2024-11",
+        "fim": "2026-10",
+        "mae": 5.66,
+        "rmse": 6.81,
+        "baseline_mae": 9.29,
+        "supera_baseline": true
+      },
+      "previsao": {
+        "periodo": "2026-11",
+        "valor": 39.41,
+        "ultimo_periodo_observado": "2026-10",
+        "ultimo_valor_observado": 35.0
+      }
+    }
+  ]
+}

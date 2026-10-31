@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+web/dist/
+dataset_qualidade_ar_campinas.csv
+.env
